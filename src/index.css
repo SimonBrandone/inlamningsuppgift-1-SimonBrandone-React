@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background: #16222a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #16222a, #3a6073); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #16222a, #3a6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Ai {
+color: white;
+}
+
+.Spelare {
+  color: white;
+}
+
+h4 {
+  text-emphasis: bold;
 }
