@@ -1,5 +1,6 @@
 import React from 'react';
 import VisaVinnare from './VisaVinnare';
+//Simon Brandoné
 
 class App extends React.Component {
   constructor() {
